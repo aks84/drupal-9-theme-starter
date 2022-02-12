@@ -1,0 +1,187 @@
+body{
+	background-color: orange;
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+}
+
+
+.layout-content {
+    width: 70%;
+}
+
+.region.region-breadcrumb {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+aside.layout-sidebar-second {
+    width: 29%;
+    display: inline-block;
+}
+
+/*.views-row {
+    padding: 5px;
+    display: inline-block;
+    font-size: 1.2rem;
+	line-height: 1.4;
+}*/
+
+.views-col {
+    border: 1px solid #aec7ae;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.image-style-medium{
+
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    float: left;
+}
+
+.image-style-large {
+
+    margin-top: 8px;
+    float: left;
+    margin-right: 8px;
+}
+
+.contextual-region.node.node--type-article.node--promoted.node--view-mode-full {
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.field.field--name-comment.field--type-comment.field--label-above.comment-wrapper {
+    font-size: 1rem;
+}
+
+/*content area*/
+
+main {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    padding: 5px 15px;
+}
+
+#block-nichehow-content{
+ font-size: 1.3rem;
+ clear: both;
+}
+
+.layout-sidebar-second{
+/*    width: 24%;*/
+   
+}
+
+footer{
+    width: 100%;
+    margin:auto;
+}
+
+
+/*
+	Menu bar
+*/
+
+#block-nichehow-main-menu {
+    width: 98%;
+    height: 40px;
+    margin:auto;
+}
+
+ul.menu{
+	width: 90%;
+	margin: auto;
+	background-color: green;
+}
+
+   
+ul.menu .menu-item {
+    padding: 0.2em 1rem 0px;
+    margin: 0;
+    float: left;
+}
+
+ul.menu .menu-item a{
+	font-size: 1.5rem;
+	color: white;
+	text-decoration: none;
+
+}
+ul.menu .menu-item a:hover,
+ul.menu .menu-item a:focus{
+	color:red;
+}
+
+
+.site-name {
+    display: none;
+}
+
+.breadcrumb {
+    padding-bottom: 0.5em;
+    width: 90%;
+    margin: auto;
+    background-color: lightcyan;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.breadcrumb a{
+	text-decoration: none;
+	color: darkgray;
+}
+
+
+#block-nichehow-main-menu{
+
+background:red;
+margin:5px;
+} 
+
+.site-logo img{
+   height: 70px;
+}
+
+ul.menu .menu-item a:hover,
+ul.menu .menu-item a:focus{
+    color:green;
+}
+
+.region-secondary-menu ul.menu .menu-item a {
+    font-size: 1.5rem;
+    color: #382828;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+  main {
+    width: 100%;
+  }
+
+ul.menu{
+    width: 100%;
+    margin: auto;
+    background-color: green;
+}
+
+
+ul.menu .menu-item {
+    width: 100%;
+    background-color: red;
+    line-height: 100%;
+}
+
+
+ul.menu .menu-item a{
+    padding-left: 10px;
+}
+}
